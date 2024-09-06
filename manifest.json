@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "GFG RightBar Hider",
+    "version": "1.0",
+    "description": "Hides the rightBar on GeeksforGeeks pages.",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.geeksforgeeks.org/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
