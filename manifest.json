@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "GFG RightBar Hider",
+    "name": "GFG Ad Block",
     "version": "1.0",
-    "description": "Hides the rightBar on GeeksforGeeks pages.",
+    "description": "Hides the Ad's on GeeksforGeeks pages.",
     "permissions": ["activeTab", "scripting"],
     "content_scripts": [
       {
